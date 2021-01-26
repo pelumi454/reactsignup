@@ -113,7 +113,7 @@ class details extends Component {
  
     submitDetails = (event) => {
         this.setState({
-        message: <p>My name is {this.state.username} and I am {this.state.age} years old i live in {this.state.address}. I am a graduate of {this.state.degree} from {this.state.institution} i am a {this.state.work}. Things i love to do for fun are {this.state.fun}. One of my Greatest wishes is {this.state.wish} One of my best experiences so far was {this.state.exp} My long terms goals are {this.state.goals} {this.state.hire}</p>
+        message: <p>My name is {this.state.username} and I am {this.state.age} years old i live in {this.state.address}. I am a graduate of {this.state.degree} from {this.state.institution} I am a {this.state.work}. Things i love to do for fun are {this.state.fun}. One of my Greatest wishes is {this.state.wish} One of my best experiences so far was {this.state.exp} My long terms goals are {this.state.goals} {this.state.hire}</p>
         })
     }
 
@@ -122,7 +122,7 @@ class details extends Component {
         return (
             <div class="container">
              <h1>Hi! Welcome to BTD HUB</h1>
-             <h3>Kindly fill in the information below</h3>
+             <h3>Kindly fill the form below with your information</h3>
              <h3>Tell us about yourself</h3>
              <form >
              <div class="row">
